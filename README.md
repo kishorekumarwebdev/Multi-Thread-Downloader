@@ -81,6 +81,15 @@ There are two frontend versions. Use `frontend_v3` for the latest features.
 2. Start the frontend.
 3. Open `http://localhost:3000` in your browser to access the downloader UI.
 
+### Vercel Deployment
+- Deploy only the frontend, not the backend.
+- Use `frontend_v3` as the deployment root.
+- Build command: `npm run build`
+- Output directory: `dist`
+- If you deploy from the repository root, Vercel will use `vercel.json` to build `frontend_v3`.
+
+> Note: The backend is a Spring Boot app and must be hosted separately if you want the full API-connected experience.
+
 ## Project Structure
 
 ```text
