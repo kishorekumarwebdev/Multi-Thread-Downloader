@@ -41,6 +41,46 @@ This helped me learn practical concepts like thread creation, byte-range request
 6. The downloaded chunks are stored temporarily.
 7. After all chunks are completed, they are merged into one final file.
 
+## How to Run
+
+### Prerequisites
+- Java 21 or higher
+- Maven 3.6+
+- Node.js 16+ and npm
+
+### Backend (Spring Boot)
+1. Navigate to the `backend` directory:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies and run the application:
+   ```bash
+   mvn spring-boot:run
+   ```
+   The backend will start on `http://localhost:8080`.
+
+### Frontend (React + Vite)
+There are two frontend versions. Use `frontend_v3` for the latest features.
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend_v3
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   The frontend will start on `http://localhost:3000`.
+
+### Running the Full Application
+1. Start the backend first.
+2. Start the frontend.
+3. Open `http://localhost:3000` in your browser to access the downloader UI.
+
 ## Project Structure
 
 ```text
