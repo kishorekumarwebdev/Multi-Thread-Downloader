@@ -1,0 +1,16 @@
+backend/downloads/
+downloads/
+*.iso
+*.zip
+*.rar
+*.7z
+*.exe
+
+node_modules/
+target/
+*.class
+*.jar
+*.war
+
+.env
+.DS_Store

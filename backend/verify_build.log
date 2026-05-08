@@ -1,0 +1,256 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.example:downloader >-----------------------
+[INFO] Building downloader 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ downloader ---
+[INFO] Deleting D:\Multi_thread_download\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ downloader ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ downloader ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 11 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/AppConfig.java:[3,46] package org.springframework.context.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/AppConfig.java:[4,49] package org.springframework.scheduling.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/AppConfig.java:[6,2] cannot find symbol
+  symbol: class Configuration
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/AppConfig.java:[7,2] cannot find symbol
+  symbol: class EnableScheduling
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/DownloaderApplication.java:[3,32] package org.springframework.boot does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/DownloaderApplication.java:[4,46] package org.springframework.boot.autoconfigure does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/DownloaderApplication.java:[6,2] cannot find symbol
+  symbol: class SpringBootApplication
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[13,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[14,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[15,2] cannot find symbol
+  symbol: class CrossOrigin
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[8,26] package jakarta.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[9,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[10,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[11,52] package org.springframework.beans.factory.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[12,49] package org.springframework.scheduling.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[13,38] package org.springframework.stereotype does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[25,2] cannot find symbol
+  symbol: class Service
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[27,26] cannot find symbol
+  symbol:   class Logger
+  location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[4,39] package com.fasterxml.jackson.core.type does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[5,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[6,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[7,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[8,52] package org.springframework.beans.factory.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[9,38] package org.springframework.stereotype does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[17,2] cannot find symbol
+  symbol: class Service
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[19,26] cannot find symbol
+  symbol:   class Logger
+  location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[20,19] cannot find symbol
+  symbol:   class ObjectMapper
+  location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[7,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[5,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[6,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[15,26] cannot find symbol
+  symbol:   class Logger
+  location: class com.example.downloader.service.ChunkDownloader
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[25,40] cannot find symbol
+  symbol:   class RequestBody
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[24,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[32,32] cannot find symbol
+  symbol:   class PathVariable
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[31,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[37,33] cannot find symbol
+  symbol:   class PathVariable
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[36,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[42,36] cannot find symbol
+  symbol:   class PathVariable
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[41,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[46,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[51,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[56,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[34,6] cannot find symbol
+  symbol:   class Value
+  location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[55,6] cannot find symbol
+  symbol:   class PostConstruct
+  location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[139,6] cannot find symbol
+  symbol:   class Scheduled
+  location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[22,6] cannot find symbol
+  symbol:   class Value
+  location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/DownloaderApplication.java:[10,17] cannot find symbol
+  symbol:   variable SpringApplication
+  location: class com.example.downloader.DownloaderApplication
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[27,42] cannot find symbol
+  symbol:   variable LoggerFactory
+  location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[19,42] cannot find symbol
+  symbol:   variable LoggerFactory
+  location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[20,51] cannot find symbol
+  symbol:   class ObjectMapper
+  location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[40,73] cannot find symbol
+  symbol:   class TypeReference
+  location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[15,42] cannot find symbol
+  symbol:   variable LoggerFactory
+  location: class com.example.downloader.service.ChunkDownloader
+[INFO] 52 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.441 s
+[INFO] Finished at: 2026-03-12T21:45:52+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project downloader: Compilation failure: Compilation failure: 
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/AppConfig.java:[3,46] package org.springframework.context.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/AppConfig.java:[4,49] package org.springframework.scheduling.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/AppConfig.java:[6,2] cannot find symbol
+[ERROR]   symbol: class Configuration
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/AppConfig.java:[7,2] cannot find symbol
+[ERROR]   symbol: class EnableScheduling
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/DownloaderApplication.java:[3,32] package org.springframework.boot does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/DownloaderApplication.java:[4,46] package org.springframework.boot.autoconfigure does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/DownloaderApplication.java:[6,2] cannot find symbol
+[ERROR]   symbol: class SpringBootApplication
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[13,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[14,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[15,2] cannot find symbol
+[ERROR]   symbol: class CrossOrigin
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[8,26] package jakarta.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[9,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[10,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[11,52] package org.springframework.beans.factory.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[12,49] package org.springframework.scheduling.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[13,38] package org.springframework.stereotype does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[25,2] cannot find symbol
+[ERROR]   symbol: class Service
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[27,26] cannot find symbol
+[ERROR]   symbol:   class Logger
+[ERROR]   location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[4,39] package com.fasterxml.jackson.core.type does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[5,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[6,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[7,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[8,52] package org.springframework.beans.factory.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[9,38] package org.springframework.stereotype does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[17,2] cannot find symbol
+[ERROR]   symbol: class Service
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[19,26] cannot find symbol
+[ERROR]   symbol:   class Logger
+[ERROR]   location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[20,19] cannot find symbol
+[ERROR]   symbol:   class ObjectMapper
+[ERROR]   location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[7,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[5,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[6,17] package org.slf4j does not exist
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[15,26] cannot find symbol
+[ERROR]   symbol:   class Logger
+[ERROR]   location: class com.example.downloader.service.ChunkDownloader
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[25,40] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[24,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[32,32] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[31,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[37,33] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[36,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[42,36] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[41,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[46,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[51,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/controller/DownloadController.java:[56,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class com.example.downloader.controller.DownloadController
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[34,6] cannot find symbol
+[ERROR]   symbol:   class Value
+[ERROR]   location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[55,6] cannot find symbol
+[ERROR]   symbol:   class PostConstruct
+[ERROR]   location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[139,6] cannot find symbol
+[ERROR]   symbol:   class Scheduled
+[ERROR]   location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[22,6] cannot find symbol
+[ERROR]   symbol:   class Value
+[ERROR]   location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/DownloaderApplication.java:[10,17] cannot find symbol
+[ERROR]   symbol:   variable SpringApplication
+[ERROR]   location: class com.example.downloader.DownloaderApplication
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[27,42] cannot find symbol
+[ERROR]   symbol:   variable LoggerFactory
+[ERROR]   location: class com.example.downloader.service.DownloadManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[19,42] cannot find symbol
+[ERROR]   symbol:   variable LoggerFactory
+[ERROR]   location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[20,51] cannot find symbol
+[ERROR]   symbol:   class ObjectMapper
+[ERROR]   location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[40,73] cannot find symbol
+[ERROR]   symbol:   class TypeReference
+[ERROR]   location: class com.example.downloader.service.StatePersistenceManager
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[15,42] cannot find symbol
+[ERROR]   symbol:   variable LoggerFactory
+[ERROR]   location: class com.example.downloader.service.ChunkDownloader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

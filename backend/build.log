@@ -1,0 +1,416 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.example:downloader >-----------------------
+[INFO] Building downloader 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ downloader ---
+[INFO] Deleting D:\Multi_thread_download\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ downloader ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ downloader ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 11 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[38,26] constructor LogEvent in class com.example.downloader.model.LogEvent cannot be applied to given types;
+  required: no arguments
+  found:    long,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[42,21] cannot find symbol
+  symbol:   method getLogs()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[43,25] cannot find symbol
+  symbol:   method getLogs()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[43,54] cannot find symbol
+  symbol:   method getLogs()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[76,13] cannot find symbol
+  symbol:   method setUrl(java.lang.String)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[77,13] cannot find symbol
+  symbol:   method setFileName(java.lang.String)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[78,13] cannot find symbol
+  symbol:   method setTotalSize(long)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[79,13] cannot find symbol
+  symbol:   method setThreadCount(int)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[80,13] cannot find symbol
+  symbol:   method setStatus(com.example.downloader.model.DownloadStatus)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[87,24] constructor ChunkInfo in class com.example.downloader.model.ChunkInfo cannot be applied to given types;
+  required: no arguments
+  found:    int,long,long,int,boolean,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[89,13] cannot find symbol
+  symbol:   method setChunks(java.util.List<com.example.downloader.model.ChunkInfo>)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[96,23] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[102,69] cannot find symbol
+  symbol:   method getThreadCount()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[103,29] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[104,36] cannot find symbol
+  symbol:   method getChunks()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[105,23] cannot find symbol
+  symbol:   method isCompleted()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[113,33] cannot find symbol
+  symbol:   method getStatus()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[114,17] cannot find symbol
+  symbol:   method setStatus(com.example.downloader.model.DownloadStatus)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[125,33] cannot find symbol
+  symbol:   method getStatus()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[126,17] cannot find symbol
+  symbol:   method setStatus(com.example.downloader.model.DownloadStatus)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[142,21] cannot find symbol
+  symbol:   method getStatus()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[147,44] cannot find symbol
+  symbol:   method getChunks()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[148,40] cannot find symbol
+  symbol:   method getDownloadedBytes()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[149,40] cannot find symbol
+  symbol:   method getSpeed()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[150,31] cannot find symbol
+  symbol:   method isCompleted()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[155,21] cannot find symbol
+  symbol:   method setDownloadedSize(long)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[156,21] cannot find symbol
+  symbol:   method setTotalSpeed(double)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[159,56] cannot find symbol
+  symbol:   method getTotalSize()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[159,25] cannot find symbol
+  symbol:   method setRemainingTime(long)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[163,21] cannot find symbol
+  symbol:   method getSpeedHistory()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[164,25] cannot find symbol
+  symbol:   method getSpeedHistory()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[164,61] cannot find symbol
+  symbol:   method getSpeedHistory()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[167,25] cannot find symbol
+  symbol:   method setStatus(com.example.downloader.model.DownloadStatus)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[168,25] cannot find symbol
+  symbol:   method setTotalSpeed(int)
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[169,71] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[186,66] invalid method reference
+  cannot find symbol
+    symbol:   method getDownloadedSize(T)
+    location: class com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[187,65] invalid method reference
+  cannot find symbol
+    symbol:   method getTotalSpeed(T)
+    location: class com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[189,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.example.downloader.model.SystemMetrics
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[43,33] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[30,18] cannot find symbol
+  symbol:   method isCompleted()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[33,38] cannot find symbol
+  symbol:   method getUrl()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[36,38] cannot find symbol
+  symbol:   method getStartByte()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[36,61] cannot find symbol
+  symbol:   method getDownloadedBytes()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[37,37] cannot find symbol
+  symbol:   method getEndByte()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[38,22] cannot find symbol
+  symbol:   method setCompleted(boolean)
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[42,89] cannot find symbol
+  symbol:   method getEndByte()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[43,67] cannot find symbol
+  symbol:   method getThreadId()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[43,142] cannot find symbol
+  symbol:   method getEndByte()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[43,40] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[48,91] cannot find symbol
+  symbol:   method getThreadId()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[53,86] cannot find symbol
+  symbol:   method getFileName()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[63,51] cannot find symbol
+  symbol:   method getDownloadedBytes()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[69,30] cannot find symbol
+  symbol:   method setSpeed(double)
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[76,68] cannot find symbol
+  symbol:   method getThreadId()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[81,22] cannot find symbol
+  symbol:   method setCompleted(boolean)
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[82,22] cannot find symbol
+  symbol:   method setSpeed(int)
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[83,71] cannot find symbol
+  symbol:   method getThreadId()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[83,44] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[84,64] cannot find symbol
+  symbol:   method getThreadId()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[87,67] cannot find symbol
+  symbol:   method getThreadId()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[87,40] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[88,57] cannot find symbol
+  symbol:   method getThreadId()
+  location: variable chunk of type com.example.downloader.model.ChunkInfo
+[INFO] 62 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.542 s
+[INFO] Finished at: 2026-03-12T21:38:22+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project downloader: Compilation failure: Compilation failure: 
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[38,26] constructor LogEvent in class com.example.downloader.model.LogEvent cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    long,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[42,21] cannot find symbol
+[ERROR]   symbol:   method getLogs()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[43,25] cannot find symbol
+[ERROR]   symbol:   method getLogs()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[43,54] cannot find symbol
+[ERROR]   symbol:   method getLogs()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[76,13] cannot find symbol
+[ERROR]   symbol:   method setUrl(java.lang.String)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[77,13] cannot find symbol
+[ERROR]   symbol:   method setFileName(java.lang.String)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[78,13] cannot find symbol
+[ERROR]   symbol:   method setTotalSize(long)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[79,13] cannot find symbol
+[ERROR]   symbol:   method setThreadCount(int)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[80,13] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.example.downloader.model.DownloadStatus)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[87,24] constructor ChunkInfo in class com.example.downloader.model.ChunkInfo cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    int,long,long,int,boolean,int,int
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[89,13] cannot find symbol
+[ERROR]   symbol:   method setChunks(java.util.List<com.example.downloader.model.ChunkInfo>)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[96,23] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[102,69] cannot find symbol
+[ERROR]   symbol:   method getThreadCount()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[103,29] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[104,36] cannot find symbol
+[ERROR]   symbol:   method getChunks()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[105,23] cannot find symbol
+[ERROR]   symbol:   method isCompleted()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[113,33] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[114,17] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.example.downloader.model.DownloadStatus)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[125,33] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[126,17] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.example.downloader.model.DownloadStatus)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[142,21] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[147,44] cannot find symbol
+[ERROR]   symbol:   method getChunks()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[148,40] cannot find symbol
+[ERROR]   symbol:   method getDownloadedBytes()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[149,40] cannot find symbol
+[ERROR]   symbol:   method getSpeed()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[150,31] cannot find symbol
+[ERROR]   symbol:   method isCompleted()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[155,21] cannot find symbol
+[ERROR]   symbol:   method setDownloadedSize(long)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[156,21] cannot find symbol
+[ERROR]   symbol:   method setTotalSpeed(double)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[159,56] cannot find symbol
+[ERROR]   symbol:   method getTotalSize()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[159,25] cannot find symbol
+[ERROR]   symbol:   method setRemainingTime(long)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[163,21] cannot find symbol
+[ERROR]   symbol:   method getSpeedHistory()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[164,25] cannot find symbol
+[ERROR]   symbol:   method getSpeedHistory()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[164,61] cannot find symbol
+[ERROR]   symbol:   method getSpeedHistory()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[167,25] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.example.downloader.model.DownloadStatus)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[168,25] cannot find symbol
+[ERROR]   symbol:   method setTotalSpeed(int)
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[169,71] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[186,66] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getDownloadedSize(T)
+[ERROR]     location: class com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[187,65] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getTotalSpeed(T)
+[ERROR]     location: class com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/DownloadManager.java:[189,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.example.downloader.model.SystemMetrics
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/StatePersistenceManager.java:[43,33] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[30,18] cannot find symbol
+[ERROR]   symbol:   method isCompleted()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[33,38] cannot find symbol
+[ERROR]   symbol:   method getUrl()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[36,38] cannot find symbol
+[ERROR]   symbol:   method getStartByte()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[36,61] cannot find symbol
+[ERROR]   symbol:   method getDownloadedBytes()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[37,37] cannot find symbol
+[ERROR]   symbol:   method getEndByte()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[38,22] cannot find symbol
+[ERROR]   symbol:   method setCompleted(boolean)
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[42,89] cannot find symbol
+[ERROR]   symbol:   method getEndByte()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[43,67] cannot find symbol
+[ERROR]   symbol:   method getThreadId()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[43,142] cannot find symbol
+[ERROR]   symbol:   method getEndByte()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[43,40] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[48,91] cannot find symbol
+[ERROR]   symbol:   method getThreadId()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[53,86] cannot find symbol
+[ERROR]   symbol:   method getFileName()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[63,51] cannot find symbol
+[ERROR]   symbol:   method getDownloadedBytes()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[69,30] cannot find symbol
+[ERROR]   symbol:   method setSpeed(double)
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[76,68] cannot find symbol
+[ERROR]   symbol:   method getThreadId()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[81,22] cannot find symbol
+[ERROR]   symbol:   method setCompleted(boolean)
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[82,22] cannot find symbol
+[ERROR]   symbol:   method setSpeed(int)
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[83,71] cannot find symbol
+[ERROR]   symbol:   method getThreadId()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[83,44] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[84,64] cannot find symbol
+[ERROR]   symbol:   method getThreadId()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[87,67] cannot find symbol
+[ERROR]   symbol:   method getThreadId()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[87,40] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.downloader.model.DownloadTask
+[ERROR] /D:/Multi_thread_download/backend/src/main/java/com/example/downloader/service/ChunkDownloader.java:[88,57] cannot find symbol
+[ERROR]   symbol:   method getThreadId()
+[ERROR]   location: variable chunk of type com.example.downloader.model.ChunkInfo
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
